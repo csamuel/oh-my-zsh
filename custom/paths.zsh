@@ -7,8 +7,8 @@ export EC2_HOME=$HOME/Library/ec2-api-tools-1.3-30349/
 # Ruby
 export LOCAL_GEM_PATH=$HOME/.gem/ruby/1.8/bin
 
-#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
+#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home
 export CATALINA_HOME=/opt/Tomcat/Home
 
 export JAXWS_HOME=/opt/local/share/java/jaxws-ri/
