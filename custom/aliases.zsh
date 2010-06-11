@@ -35,8 +35,10 @@ alias reload='. ~/.bash_profile'
 # clear
 alias cls='clear'
 
-# servers
+# Dreamhost
 alias dreamhost='ssh csamuel@itcannot.be'
+
+# Comcast
 alias deva01='ssh csamue4916c@pacdcdtadeva01.cable.comcast.com'
 alias deva02='ssh csamue4916c@pacdcdtadeva02.cable.comcast.com'
 alias deva03='ssh csamue4916c@pacdcdtadeva03.cable.comcast.com'
