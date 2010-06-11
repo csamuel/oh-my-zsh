@@ -1,10 +1,3 @@
-# Found on the ZshWiki
-#  http://zshwiki.org/home/config/prompt
-#
-
-
-BRIGHT_GREEN='\033[01;32m'
-
 PURPLEISH='\033[01;34m'
 
 fg_bright_green=$'%{\033[01;32m%}'
@@ -19,5 +12,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[white]%}]"
 
 
 
-PROMPT='%{$fg_bright_green%}%n%{$fg_purple%}@%{$fg[green]%}%m%{$fg[white]%}:%{$fg_purple%}%~%{$fg[white]%}$(git_prompt_info)%{$fg_bold[blue]%}% 
+PROMPT='%{$fg_bold[cyan]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$fg[white]%}:%{$fg_bold[yellow]%}%~%{$fg[white]%}$ (git_prompt_info)%{$fg_bold[blue]%}% 
 %{$reset_color%}→ '
