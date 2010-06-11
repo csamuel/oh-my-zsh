@@ -12,5 +12,5 @@ ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[white]%}]"
 
 
 
-PROMPT='%{$fg_bold[cyan]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$fg[white]%}:%{$fg_bold[yellow]%}%~%{$fg[white]%}$ (git_prompt_info)%{$fg_bold[blue]%}% 
+PROMPT='%{$fg_bold[cyan]%}%n%{$fg_bold[yellow]%}@%{$fg_bold[cyan]%}%m%{$fg[white]%}:%{$fg_bold[yellow]%}%~%{$fg[white]%}$(git_prompt_info)%{$fg_bold[blue]%}% 
 %{$reset_color%}→ '
