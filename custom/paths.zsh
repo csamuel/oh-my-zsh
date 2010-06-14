@@ -46,4 +46,4 @@ export M2_HOME="/usr/local/Cellar/maven/2.2.1"
 #export M2_HOME="/opt/local/share/java/maven2"
 
 # Path
-export PATH=$HOME/.local/homebrew/bin:/opt/local/bin:/opt/local/sbin:$EC2_HOME/bin:LOCAL_GEM_PATH:/opt/flex_sdk_3/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$HOME/opt/local/bin:/opt/CollabNet_Subversion/bin:$HOME/.gem/ruby/1.8/bin:$HOME/.javagem/java/bin:$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/homebrew/bin:/opt/local/bin:/opt/local/sbin:$EC2_HOME/bin:LOCAL_GEM_PATH:/opt/flex_sdk_3/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$HOME/opt/local/bin:/opt/CollabNet_Subversion/bin:$HOME/.gem/ruby/1.8/bin:$HOME/.javagem/java/bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
