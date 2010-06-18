@@ -48,7 +48,6 @@ alias prdrpt01='ssh csamue4916c@pacdcdtaprdrpt1.cable.comcast.com'
 alias ftp1='ssh csamue4916c@pacdcdtaomprdftp1'
 alias greg='ssh ghenge3254c@pacdcdtaprdrpt1.cable.comcast.com'
 
-
 #vpn
 alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
