@@ -30,7 +30,7 @@ alias rst='touch tmp/restart.txt'
 alias %=' '
 
 # misc
-alias reload='. ~/.bash_profile'
+#alias reload='. ~/.bash_profile'
 
 # clear
 alias cls='clear'
