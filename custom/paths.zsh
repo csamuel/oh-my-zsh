@@ -27,7 +27,7 @@ export RC_ARCHS=i386
 # Grep and History
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='7;33'
-export GIT_EDITOR=mate
+export GIT_EDITOR=vim
 export HISTCONTROL=erasedups
 export HISTSIZE=5000
 
