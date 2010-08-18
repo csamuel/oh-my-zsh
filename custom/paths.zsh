@@ -38,12 +38,15 @@ PATH="$PATH:$RIPDIR/active/bin"
 export RIPDIR RUBYLIB PATH
 # -- end rip config -- #
 
-
 export AXIS2_HOME=$HOME/code/axis2
 
 export M2_HOME="/usr/local/Cellar/maven/2.2.1"
 
+export JRUBY_HOME='/usr/local/Cellar/jruby/1.5.1/jruby'
+export MIRAH_HOME=$HOME/projects/mirah
+export APPENGINE_JAVA_SDK='/usr/local/Cellar/app-engine-java-sdk/1.3.5'
+
 #export M2_HOME="/opt/local/share/java/maven2"
 
 # Path
-export PATH=$HOME/.local/homebrew/bin:/opt/local/bin:/opt/local/sbin:$EC2_HOME/bin:LOCAL_GEM_PATH:/opt/flex_sdk_3/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$HOME/opt/local/bin:/opt/CollabNet_Subversion/bin:$HOME/.gem/ruby/1.8/bin:$HOME/.javagem/java/bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$PATH
+export PATH=$HOME/.local/homebrew/bin:/opt/local/bin:/opt/local/sbin:$EC2_HOME/bin:LOCAL_GEM_PATH:/opt/flex_sdk_3/bin:$GROOVY_HOME/bin:$CATALINA_HOME/bin:$HOME/opt/local/bin:/opt/CollabNet_Subversion/bin:$HOME/.gem/ruby/1.8/bin:$HOME/.javagem/java/bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$PATH 
