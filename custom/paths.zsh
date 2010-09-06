@@ -5,13 +5,13 @@ export EC2_CERT=$HOME/.ec2/cert-KWX5OM554TXYEMORMTTI6C22ONFQEG4T.pem
 export EC2_HOME=$HOME/Library/ec2-api-tools-1.3-30349/
 
 # Ruby
-export LOCAL_GEM_PATH=$HOME/.gem/ruby/1.8/bin
+#export LOCAL_GEM_PATH=$HOME/.gem/ruby/1.8/bin
 
-export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
+#export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
 #export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home
-export CATALINA_HOME=/opt/Tomcat/Home
+#export CATALINA_HOME=/usr/local/Cellar/tomcat/6.0.26/libexec/
 
-export JAXWS_HOME=/opt/local/share/java/jaxws-ri/
+#export JAXWS_HOME=/opt/local/share/java/jaxws-ri/
 
 # Grails and Groovy
 export GRAILS_HOME="/opt/local/share/java/grails"
