@@ -30,13 +30,17 @@ alias rst='touch tmp/restart.txt'
 alias %=' '
 
 # misc
-#alias reload='. ~/.bash_profile'
+alias reload='. ~/.zshrc'
 
 # clear
 alias cls='clear'
 
 # Dreamhost
 alias dreamhost='ssh csamuel@itcannot.be'
+
+# Slicehost
+alias slicehost='ssh csamuel@184.106.228.187'
+alias linode='ssh csamuel@li202-216.members.linode.com'
 
 # Comcast
 alias deva01='ssh csamue4916c@pacdcdtadeva01.cable.comcast.com'
