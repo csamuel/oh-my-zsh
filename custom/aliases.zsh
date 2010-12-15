@@ -56,6 +56,9 @@ alias greg='ssh ghenge3254c@pacdcdtaprdrpt1.cable.comcast.com'
 #vpn
 alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
+#buildr
+alias bj='buildr clean jetty test=no'
+
 #dasadmin
 alias dasadmin='sudo -H -u dasadmin bash -l'
 
