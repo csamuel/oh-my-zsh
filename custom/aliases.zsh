@@ -40,6 +40,7 @@ alias dreamhost='ssh csamuel@itcannot.be'
 
 # Slicehost
 alias slicehost='ssh csamuel@184.106.228.187'
+# Linode
 alias linode='ssh csamuel@li202-216.members.linode.com'
 
 # Comcast
@@ -52,18 +53,19 @@ alias prdrpt01='ssh csamue4916c@pacdcdtaprdrpt1.cable.comcast.com'
 alias ftp1='ssh csamue4916c@pacdcdtaomprdftp1'
 alias greg='ssh ghenge3254c@pacdcdtaprdrpt1.cable.comcast.com'
 
-
 #vpn
 alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
 #buildr
 alias bj='buildr clean jetty test=no'
 
+alias m='mvim'
+
 #dasadmin
 alias dasadmin='sudo -H -u dasadmin bash -l'
 
 # changing directory to code project
-function c { cd ~/code/$1; }
+function c { cd ~/projects/$1; }
 
 # alternative to "rails" command to use templates
 function railsapp {
