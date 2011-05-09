@@ -43,6 +43,9 @@ alias slicehost='ssh csamuel@184.106.228.187'
 # Linode
 alias linode='ssh csamuel@li202-216.members.linode.com'
 
+#Linode
+alias orion='ssh csamuel@orion.liftrapp.com'
+
 # Comcast
 alias deva01='ssh csamue4916c@pacdcdtadeva01.cable.comcast.com'
 alias deva02='ssh csamue4916c@pacdcdtadeva02.cable.comcast.com'
