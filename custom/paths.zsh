@@ -3,7 +3,7 @@ export REBEL_HOME="/Applications/ZeroTurnaround/JRebel"
 
 # OS X Java Preference setting
 export JAVA_HOME=$(/usr/libexec/java_home)
-export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -client"
+export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M"
 
 # Unset M2_HOME because it causes problems with Maven 3
 unset M2_HOME
@@ -29,7 +29,7 @@ export JBOSS_HOME="$TORQUEBOX_HOME/jboss"
 export JRUBY_HOME="/usr/local/Cellar/jruby/1.6.1/jruby"
 
 # Git (https://github.com/b4winckler/macvim/wiki/FAQ)
-export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
+export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm\ 2"'
 
 # Man Entries
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
