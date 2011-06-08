@@ -61,6 +61,7 @@ alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
 #buildr
 alias bj='buildr clean jetty test=no'
+alias bi='buildr clean install test=no'
 
 alias m='mvim'
 
