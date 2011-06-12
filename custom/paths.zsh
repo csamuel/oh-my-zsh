@@ -26,7 +26,7 @@ export HISTSIZE=5000
 # Torquebox
 export TORQUEBOX_HOME="/usr/local/torquebox-1.0.0"
 export JBOSS_HOME="$TORQUEBOX_HOME/jboss"
-export JRUBY_HOME="/usr/local/Cellar/jruby/1.6.1/jruby"
+export JRUBY_HOME="/usr/local/Cellar/jruby/1.6.2/jruby"
 
 # Git (https://github.com/b4winckler/macvim/wiki/FAQ)
 export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm\ 2"'
