@@ -6,6 +6,7 @@ export REBEL_HOME="/Applications/ZeroTurnaround/JRebel"
 # export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -d32 -client"
+# export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=256M"
 # export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=n"
 
 
