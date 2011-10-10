@@ -9,6 +9,8 @@ export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -d32 -client"
 # export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=256M"
 # export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=n"
 
+export SCALA_HOME="/usr/local/Cellar/scala/2.9.1/libexec/"
+
 
 # export JRUBY_OPTS="-J-d32 -J-client"
 # export JRUBY_OPTS="-J-d32 -J-client -J-XX:CompileCommand=dontinline,org.jruby.runtime.invokedynamic.InvokeDynamicSupport::invocationFallback"
