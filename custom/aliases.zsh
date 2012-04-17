@@ -1,5 +1,7 @@
 # cd
 alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
  
 # clear
 alias cls=clear
@@ -15,6 +17,14 @@ alias gb='git branch'
 alias gs='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias gitlog='git log --pretty=oneline --abbrev-commit HEAD~10..HEAD'
+alias s='git status -s'
+alias gsd='git svn dcommit'
+alias gsr='git svn rebase'
+
+# tower
+alias t='gittower'
+alias tower='gittower'
+alias gitx='gittower'
  
 # rails
 alias sc='script/console'
@@ -60,6 +70,7 @@ alias greg='ssh ghenge3254c@pacdcdtaprdrpt1.cable.comcast.com'
 alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
 #buildr
+alias buildr='nocorrect buildr'
 alias bj='buildr clean jetty test=no'
 alias bi='buildr clean install test=no'
 alias bt='buildr clean test'
