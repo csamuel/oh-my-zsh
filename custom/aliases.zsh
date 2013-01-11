@@ -78,7 +78,12 @@ alias bt='buildr clean test'
 
 alias m='mvim'
 
+# Maven
+alias mci='mvn clean install'
+alias mcp='mvn clean package'
 
+#bundler
+alias be='bundle exec'
 
 #dasadmin
 alias dasadmin='sudo -H -u dasadmin bash -l'
