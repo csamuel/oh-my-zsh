@@ -1,12 +1,16 @@
+
+
 # JRebel
 export REBEL_HOME="/Applications/ZeroTurnaround/JRebel"
 
 # OS X Java Preference setting
 # export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
 # export JAVA_HOME="$HOME/Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home"
-export JAVA_HOME=$(/usr/libexec/java_home)
+# export JAVA_HOME=$(/usr/libexec/java_home)
 # export JAVA_HOME="/Library/Java/JavaVirtualMachines/1.7.0u.jdk/Contents/Home"
+# export JAVA_HOME="/Library/Java/JavaVirtualMachines/1.8.0-lambda.jdk/Contents/Home"
 # export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -d32 -client"
+export JAVA_HOME="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"
 export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=256M"
 # export JAVA_OPTS="-Xmx512M -XX:MaxPermSize=128M -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=4000,suspend=n"
 
@@ -46,13 +50,18 @@ export HISTSIZE=5000
 # Torquebox
 export TORQUEBOX_HOME="/usr/local/torquebox-1.0.0"
 export JBOSS_HOME="$TORQUEBOX_HOME/jboss"
-# export JRUBY_HOME="/usr/local/Cellar/jruby/1.6.2/jruby"
+
+# Oracle/Weblogic
+export MIDDLEWARE_HOME="$HOME/Oracle/JDevMiddleware"
+export VPRICE_DOMAIN_HOME="$MIDDLEWARE_HOME/user_projects/domains/vprice"
 
 # Git (https://github.com/b4winckler/macvim/wiki/FAQ)
-export GIT_EDITOR='mvim -f --nomru -c "au VimLeave * !open -a iTerm\ 2"'
+export GIT_EDITOR='vim'
 
 # Man Entries
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 # Path
-export PATH="$HOME/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$PATH"
+export PATH="$HOME/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$VPRICE_DOMAIN_HOME/bin:$PATH"
+
+export PYTHONPATH="$(brew --prefix)/lib/python2.7/site-packages"
