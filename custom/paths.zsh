@@ -21,10 +21,10 @@ export JMETER_HOME="/usr/local/Cellar/jmeter/2.6/libexec/"
 export CLOJURE_HOME="/usr/local/Cellar/clojure/1.3.0/"
 
 # Amazon EC2
-export EC2_PRIVATE_KEY="$(/bin/ls $HOME/.ec2/pk-*.pem)"
-export EC2_CERT="$(/bin/ls $HOME/.ec2/cert-*.pem)"
-export EC2_AMITOOL_HOME="/usr/local/Cellar/ec2-ami-tools/1.3-45758/jars"
-export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.5.2.3/jars"
+#export EC2_PRIVATE_KEY="$(/bin/ls $HOME/.ec2/pk-*.pem)"
+#export EC2_CERT="$(/bin/ls $HOME/.ec2/cert-*.pem)"
+#export EC2_AMITOOL_HOME="/usr/local/Cellar/ec2-ami-tools/1.3-45758/jars"
+#export EC2_HOME="/usr/local/Cellar/ec2-api-tools/1.5.2.3/jars"
 
 # export JRUBY_OPTS="-J-d32 -J-client"
 # export JRUBY_OPTS="-J-d32 -J-client -J-XX:CompileCommand=dontinline,org.jruby.runtime.invokedynamic.InvokeDynamicSupport::invocationFallback"
@@ -62,6 +62,6 @@ export GIT_EDITOR='vim'
 export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 
 # Path
-export PATH="$HOME/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$VPRICE_DOMAIN_HOME/bin:$PATH"
+export PATH="$HOME/.bin:$HOME/bin:/usr/local/bin:/usr/local/sbin:$HOME/.rvm/bin:$VPRICE_DOMAIN_HOME/bin:$HOME/.rbenv/bin:$PATH"
 
-export PYTHONPATH="$(brew --prefix)/lib/python2.7/site-packages"
+#export PYTHONPATH="$(brew --prefix)/lib/python2.7/site-packages"

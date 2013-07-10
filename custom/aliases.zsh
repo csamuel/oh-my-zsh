@@ -66,6 +66,30 @@ alias prdrpt01='ssh csamue4916c@pacdcdtaprdrpt1.cable.comcast.com'
 alias ftp1='ssh csamue4916c@pacdcdtaomprdftp1'
 alias greg='ssh ghenge3254c@pacdcdtaprdrpt1.cable.comcast.com'
 
+#### HomeAway ####
+alias dash='export MAVEN_OPTS="-Xms256m -Xmx512m -XX:MaxPermSize=256m -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=n"; echo -n -e "\033]0;Dashboard\007"; echo READY TO RUN DASHBOARD'
+
+# haodash-online-booking
+function setup_dash() {
+    eval 'export MAVEN_OPTS="-Xms256m -Xmx512m -XX:MaxPermSize=256m -Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,address=5005,server=y,suspend=n"; echo -n -e "\033]0;Dashboard\007"; echo READY TO RUN DASHBOARD'
+}
+function haodash_stg() {
+    setup_dash
+    mvn clean jetty:run -Dhaodash.homeaway.app.uri=http://localhost:8088/haolb -Dlog4j.root.loglevel=DEBUG -Dlog4j.homeaway.loglevel=DEBUG -Dsecure.cookies=false -Dcom.homeaway.svc.env=stage -Djawr.debug.on=true -Drubicon.skip.compile=true -Drubicon.bypassCdn=true "$*"
+}
+function haodash_test() {
+    setup_dash
+    mvn clean jetty:run -Dhaodash.homeaway.app.uri=http://localhost:8088/haolb -Dlog4j.root.loglevel=DEBUG -Dlog4j.homeaway.loglevel=DEBUG -Dsecure.cookies=false -Dcom.homeaway.svc.env=test -Djawr.debug.on=true -Drubicon.skip.compile=true -Drubicon.bypassCdn=true "$*"
+}
+
+# quote-rate-service
+function qrs_stg() {
+    mvn clean jetty:run -Pstage
+}
+function qrs_test() {
+    mvn clean jetty:run -Ptest
+}
+
 #vpn
 alias boston='sudo vpnc boston --natt-mode cisco-udp'
 
